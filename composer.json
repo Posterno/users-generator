@@ -1,0 +1,28 @@
+{
+	"name": "posterno/users-generator",
+	"type": "wp-cli-package",
+	"description": "WP-CLI toolkit to generate users for Posterno.",
+	"keywords": [ "wp-cli", "posterno", "wordpress" ],
+	"homepage": "https://github.com/Posterno/users-generator",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Posterno",
+			"homepage": "https://posterno.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/Posterno/users-generator/issues",
+		"source": "https://github.com/Posterno/users-generator"
+	},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [ "users-generator.php" ]
+    },
+    "require": {
+        "php": ">=5.4",
+        "wp-cli/wp-cli": ">=0.23.0",
+		"fzaninotto/faker": "^1.8"
+    }
+}
